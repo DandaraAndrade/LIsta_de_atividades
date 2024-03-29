@@ -1,0 +1,5 @@
+numero = float(input( "Informe o numero: "))
+
+numero_ao_quadrado = numero * numero
+
+print(f" Esse número elevado ao quadrado é:{numero_ao_quadrado} ") 

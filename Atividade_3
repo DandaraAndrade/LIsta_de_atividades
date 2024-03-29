@@ -1,0 +1,5 @@
+qnt_polegadas= float(input ("Qual á quantidade de chuva em polegadas?"))
+
+qtd_milimetro = (qnt_polegadas)* (25.4)
+
+print(f"A quantidade em mm é:{qtd_milimetro} ")

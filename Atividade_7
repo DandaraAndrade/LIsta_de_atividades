@@ -1,0 +1,10 @@
+nome_vendedor = input("Digite o nome do vendedor: ")
+numero_carros_vendidos = int(input("Digite o número de carros vendidos: "))
+valor_total_vendas = float(input("Digite o valor total das vendas: "))
+salario_base = 500.00
+comissao_por_carro = 50.00
+comissao_percentual = 0.05
+comissao_total = comissao_por_carro * numero_carros_vendidos + comissao_percentual * valor_total_vendas
+salario_total = salario_base + comissao_total
+
+print(f"O salário do vendedor {nome_vendedor} é de R$ {salario_total:.2f}")

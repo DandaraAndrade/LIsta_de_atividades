@@ -1,0 +1,12 @@
+# Media = (N1+(N2*2))/3
+# 7 = (N1+(N2*2))/3
+# 7*3 = N1+(N2*2)
+# 21 = N1+(N2*2)
+# 21-(N2*2) = N1
+MEDIA = 7
+
+N2 = float(input("Dígite a nota referente á segunda prova: "))
+N1 = N1=( 21-(N2*2))
+
+
+print(f"O aluno precisa de {N1} de nota na segunda prova para obter á aprovação.")
